@@ -1,0 +1,39 @@
+body {
+    background-color: #000000;
+}
+
+#container-countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#countdown {
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+}
+
+#play {
+    display: none;
+}
+
+@media all and (max-width: 1024px) {
+    #play {
+        display: block;
+        color: #ffffff;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        background-color: #000000;
+        padding: 20px;
+        border-radius: 30px;
+        border: 2px solid #ffffff;
+        }
+    }
